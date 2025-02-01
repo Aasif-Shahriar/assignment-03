@@ -66,8 +66,8 @@
                 <div class="space-x-4 ml-24 hidden lg:block">
                     <i class="fa-solid fa-magnifying-glass text-2xl text-stone-600"></i>
                     <i class="fa-solid fa-cart-arrow-down text-2xl text-stone-600"></i>
-                    <button class="btn btn-outline btn-success px-7 py-3">Login</button>
-                    <button class="btn bg-primary-color px-7 py-3 text-white rounded-lg hover:text-black">Register</button>
+                    <button class="btn btn-outline btn-success px-7 py-3 hover:text-white">Login</button>
+                    <button class="btn border-none bg-primary-color px-7 py-3 text-white rounded-lg hover:text-white">Register</button>
                 </div>
                 <!-- responsive bars -->
                  <div class="dropdown ">
@@ -292,7 +292,7 @@
          </section>
 
          <!-- Arrival and Offers Section -->
-         <section class="container mx-auto px-4 pb-36 lg:pb-60">
+         <section class="container mx-auto px-4 pb-48 lg:pb-60 relative">
             <h3 class="text-4xl font-semibold text-primary-color mb-12">Arrival & Offers</h3>
             <!-- Offers Card -->
              <div class="flex flex-col lg:flex-row gap-6">
@@ -323,20 +323,39 @@
                      </div>
                  </div>
              </div>
+             <!-- Subscribe Section -->
+              <section class="container mx-auto px-4 absolute left-1/2 -translate-x-1/2 top-[80%] lg:top-[88%]">
+                 <div class="hero bg-primary-bg py-10 rounded-3xl">
+                     <div class="hero-content flex-col lg:flex-row">
+                         <!-- Image content -->
+                       <img
+                         src="./c2-assets/vegetable-busket.png"
+                         class="w-60 lg:w-[440px] " />
+                         <!-- text content -->
+                       <div class="text-center space-y-3 lg:space-y-8 lg:text-left">
+                         <h1 class="text-xl text-primary-color lg:text-black lg:text-4xl font-bold">Get Grocery News!</h1>
+                         <p class=" text-gray-500 lg:text-xl">
+                             Exclusive training tips, ticks, product deals and more.
+                         </p>
+                         <!-- input email -->
+                         <label class="input input-bordered bg-white flex items-center gap-2">
+                             <input type="text" class="grow" placeholder="Enter your email..." />
+                           </label>
+                         <button class="btn border-none bg-primary-color px-7 py-3 text-white rounded-lg hover:text-white">Subscribe</button>
+                       </div>
+                     </div>
+                   </div>
+              </section>
          </section>
         
-        <!-- Subscribe Section -->
-         <!-- <section class="container mx-auto px-4">
-
-         </section> -->
     </main>
     <!-- Footer Section -->
     <footer class="bg-footer-bg">
-        <div class="container mx-auto px-4 space-y-9 flex flex-col lg:justify-between pt-72 lg:pt-80 pb-10 lg:pb-36">
+        <div class="container mx-auto px-4 space-y-9 flex flex-col lg:flex-row lg:justify-between pt-80 lg:pt-80 pb-10 lg:pb-36">
             <!-- footer logo -->
              <div>
                 <img src="./c2-assets/logo-footer.png" alt="">
-                <p class="lg:text-xl text-gray-300 lg:w-2/5 mt-4">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+                <p class="lg:text-xl text-gray-300 mt-4">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
              </div>
              <!-- footer nav -->
              <nav>
