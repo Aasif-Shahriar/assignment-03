@@ -17,6 +17,7 @@
                 'primary-bg': '#EFEBE3',
                 'card1-bg': '#115414',
                 'card2-bg': '#102861',
+                'footer-bg': '#179800',
               }
             }
           }
@@ -29,6 +30,8 @@
 
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Boxicons CDN -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- Plain Css -->
     <style>
@@ -289,7 +292,7 @@
          </section>
 
          <!-- Arrival and Offers Section -->
-         <section class="container mx-auto px-4">
+         <section class="container mx-auto px-4 pb-36 lg:pb-60">
             <h3 class="text-4xl font-semibold text-primary-color mb-12">Arrival & Offers</h3>
             <!-- Offers Card -->
              <div class="flex flex-col lg:flex-row gap-6">
@@ -322,9 +325,38 @@
              </div>
          </section>
         
-         
+        <!-- Subscribe Section -->
+         <!-- <section class="container mx-auto px-4">
+
+         </section> -->
     </main>
     <!-- Footer Section -->
-    <footer class=""></footer>
+    <footer class="bg-footer-bg">
+        <div class="container mx-auto px-4 space-y-9 flex flex-col lg:justify-between pt-72 lg:pt-80 pb-10 lg:pb-36">
+            <!-- footer logo -->
+             <div>
+                <img src="./c2-assets/logo-footer.png" alt="">
+                <p class="lg:text-xl text-gray-300 lg:w-2/5 mt-4">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+             </div>
+             <!-- footer nav -->
+             <nav>
+                <ul class="space-y-5 lg:space-y-8">
+                    <li><a class="text-white lg:text-xl hover:underline" href="">Product</a></li>
+                    <li><a class="text-white lg:text-xl hover:underline" href="">Services</a></li>
+                    <li><a class="text-white lg:text-xl hover:underline" href="">Contact Us</a></li>
+                </ul>
+             </nav>
+            <!-- footer icons -->
+             <div class="lg:self-end">
+                <p class="text-white">Follow Us</p>
+                <div class="flex gap-7">
+                    <i class='bx bxl-facebook-circle text-white text-2xl cursor-pointer'></i>
+                    <i class='bx bxl-instagram text-white text-2xl cursor-pointer'></i>
+                    <i class='bx bxl-linkedin-square text-white text-2xl cursor-pointer' ></i>
+                    <i class='bx bxl-youtube text-white text-2xl cursor-pointer' ></i>
+                </div>
+             </div>
+        </div>
+    </footer>
 </body>
 </html>
